@@ -9,10 +9,14 @@
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -22,6 +26,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .logo.text {
@@ -31,12 +36,17 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* site - nav */
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -46,6 +56,10 @@ body {
 
 .auth-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -54,3 +68,39 @@ body {
 }
 
 /* hero */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+}
+
+.title {
+  color: var(--primary-white-color);
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
